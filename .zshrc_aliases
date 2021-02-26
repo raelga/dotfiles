@@ -1,0 +1,8 @@
+
+alias dotfiles='/usr/bin/git --git-dir=/Users/rael/.dotfiles/ --work-tree=/Users/rael'
+alias k='kubectl'
+alias kx='kubectx'
+alias ks='kubectl -n kube-system'
+alias tf='terraform'
+alias zshr='source ~/.zshrc'
+alias _sshadd='find ~/.ssh -name "*rsa" -exec ssh-add -K {} \;'
