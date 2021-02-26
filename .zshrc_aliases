@@ -1,0 +1,10 @@
+
+alias dotfiles='/usr/bin/git --git-dir=/Users/rael/.dotfiles/ --work-tree=/Users/rael'
+alias k='kubectl'; complete -F __start_kubectl k
+alias kx='kubectx'
+alias ks='kubectl -n kube-system'
+alias tf='terraform'
+alias zshr='source ~/.zshrc'
+alias _sshadd='find ~/.ssh -name "*rsa" -exec ssh-add -K {} \;'
+alias _git_clean='git remote prune origin; git branch --merged | egrep -v "(^\*|master|dev|main)" | xargs git branch -d;'
+alias d='podman'
