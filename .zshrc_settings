@@ -33,16 +33,6 @@ export GOPATH=$HOME/go
 export GOROOT=/usr/local/opt/go/libexec
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
-# Pluggins
-# Load antibody plugin manager
-source <(antibody init)
-
-# Plugins
-#antibody bundle zdharma/fast-syntax-highlighting
-antibody bundle zsh-users/zsh-syntax-highlighting
-antibody bundle zsh-users/zsh-autosuggestions
-antibody bundle zsh-users/zsh-completions
-antibody bundle zsh-users/zsh-history-substring-search
 
 bindkey ';9A' history-substring-search-up
 bindkey ';9B' history-substring-search-down
