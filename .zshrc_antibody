@@ -1,0 +1,11 @@
+# Pluggins
+# Load antibody plugin manager
+source <(antibody init)
+
+# Plugins
+antibody bundle romkatv/powerlevel10k
+#antibody bundle zdharma/fast-syntax-highlighting
+antibody bundle zsh-users/zsh-syntax-highlighting
+antibody bundle zsh-users/zsh-autosuggestions
+antibody bundle zsh-users/zsh-completions
+antibody bundle zsh-users/zsh-history-substring-search
